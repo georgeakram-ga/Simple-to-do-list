@@ -1,0 +1,62 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: aliceblue;
+}
+#todo-list {
+    background-image: url(https://d.top4top.io/p_2610g7mab1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#todo-list h1 {
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+    font-weight: 400;
+    font-size: 45px;
+    padding-bottom: 3%;
+    font-style: italic;
+}
+#todo-form {
+    width: 100%;
+    text-align: center;
+}
+#todo-input {
+    width: 300px;
+    padding: 13px;
+    border-radius: 5px;
+    border: solid 3px rgb(22, 204, 228);
+}
+.main-button {
+    padding: 13px;
+    color: rgb(22, 204, 228);
+    background-color: white;
+    border: solid 3px rgb(22, 204, 228);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+#tasks {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(22, 204, 228);
+    padding-bottom: 15px;
+    line-height: 2.5rem;
+}
+@media (max-width:500px){
+    #todo-list h1 {
+    padding-top: 20%;
+    }
+}
+@media (max-width:500px){
+    #todo-input {
+    width: 200px;
+    margin-top: 20px;
+    }
+}
